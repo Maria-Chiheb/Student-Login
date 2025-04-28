@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Outfit", sans-serif;
+}
+body {
+  height: 100vh;
+  display: flex;
+}
+.left,
+.right {
+  flex: 1;
+}
+
+.left {
+  background-image: url(./images/student.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+img {
+  width: 60px;
+  height: 60px;
+  margin: 0 10px;
+  cursor: pointer;
+  border-radius: 20px;
+  border: 2.94px black solid;
+}
+.boy {
+  background-color: #54d62c;
+}
+.tchr {
+  background-color: #989898;
+}
+.right {
+  padding-left: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.choice {
+  display: flex;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 70px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.subtitle {
+  margin-bottom: 30px;
+  color: #777;
+}
+.login {
+  display: flex;
+  flex-direction: column;
+}
+.input {
+  position: relative;
+  margin-bottom: 20px;
+}
+.input input {
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  width: 500px;
+  padding: 15px 40px 15px 15px;
+  border: 3px solid black;
+  border-radius: 11px;
+  font-size: 16px;
+}
+.input i {
+  position: absolute;
+  right: 200px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 18px;
+  color: #888;
+}
+.forgot-password {
+  color: blue;
+  font-size: 14px;
+  margin-bottom: 20px;
+  text-decoration: none;
+}
+.btn {
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  width: 565px;
+  background-color: #ffbf00;
+  color: black;
+  padding: 15px;
+  border: 3px solid black;
+  border-radius: 11px;
+  font-size: 20px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  transition: background 0.3s;
+}
+.btn:hover {
+  background-color: #e0a800;
+}
+.no-account {
+  padding-left: 200px;
+  color: black;
+  font-size: 14px;
+  text-decoration: underline;
+  cursor: pointer;
+}
